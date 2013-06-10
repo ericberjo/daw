@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>3 en ratlla (Jordi & Èric)</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body style="font-family: arial;"><center>
+        <h2>Part d'administració del 3 en ratlla</h2><br/>
+        
+        <!--Creem les partides-->
+        <form action="gestioTaulells.jsp" method="post" id="inst">
+            <input type="submit" id="crear" name='crear' value="Crear partides" />
+        </form><br/>        
+        
+        <!--Esborrem les partides-->
+         <form action="gestioTaulells.jsp" method="post" id="res">
+            <input type="submit" id="reiniciar" name='reiniciar' value="Esborrar partides" />
+        </form><br/> 
+                
+        <!--Veure l'estat de les partides-->
+        <form action="gestioTaulells.jsp" method="post"  id="estat">
+            <input type="submit" id="estat" name='estat' value="Veure Estat" />
+        </form><br/>
+        <br /><br />
+            <a href="index.jsp">Tornar a la pàgina inicial</a>
+        </center>
+    </body>
+</html>
